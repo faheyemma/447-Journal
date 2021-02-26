@@ -2,26 +2,37 @@
 title: "My Journal"
 author: "Emma"
 date: "26/02/2021"
-output: html_document:
-  theme: Superhero
+output: html_document
+  
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Workbook details
+# Workbook Details
 
-1. text that is ~~crossed out~~
-2. A link to a [fun website](windy.com)
-3. footnote^2^
-4. inspirational quote: 
-> *if opportunity doesn't knock, build a door* - **Milton Berle** 
+This is my workbook. 
 
-5. bibliographic citation to the best book [@JKRowling1997HarryPotterAndThePhilosophersStone]
-***
-6. finally, see below record of help sought this week. 
-Note - I only enrolled into the course on Thursday, so have been unable to offer help at this stage. 
-Help sought: 
-<br><br><br><br>
-I couldn't get Github and Rstudio to communicate, so asked Johannes and Torven in the Mind, Body and Cultural Evolution Lab for assistance. They helped me get GitKraken which allowed the two systems to communicate. Other than that issue, I have gone through all the course content to work out how to complete the above workbook. 
+Week One tasks 
+
+
+### Small Heading
+
+2. Text that is ~~crossed out~~\
+3. A link to a [fun website](windy.com)\
+4. footnote^7^ \
+5. inspirational quote:\
+
+>*"If opportunity doesn't knock, build a door"* - **Milton Berle**\ 
+
+6. Bibliographic citation to the start of the best book series [JKRowling1997HarryPotterAndThePhilosophersStone]\
+
+7. Finally, see below record and reflections from week one:\ 
+
+`Note - I only became enrolled in this course on Thursday, so have been unable to offer help at this stage and did not attend the lab.`
+
+Help sought: I struggled to work out how to get Github and Rstudio to communicate with each other initially, so asked Johannes and Torven for assistance. They walked me through downloading GitKraken which created the connection. They also helped me to turn Rstudio into a darker mode, which looks WAY cooler! Other than that, I have dug through all the course content to work out how to complete the above exercise.\
+
+Reflections: It took me a while to work out the terminology/jargon and correct coding to use, but once I worked out that Knit gave you an output that showed you where the code wasn't quite working as intended, it all became MUCH easier! Overall, I can see a lot of different uses for the programs. I like the idea of being able to see clear version control when collaborating, seems much clearer and less glitchy that a google doc!\
+I really hope you're both able to see this once committed to Github, as I feel I missed a valuable intro in the lecture and workshop! :D  
