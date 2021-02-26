@@ -1,0 +1,27 @@
+---
+title: "My Journal"
+author: "Emma"
+date: "26/02/2021"
+output: html_document:
+  theme: Superhero
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Workbook details
+
+1. text that is ~~crossed out~~
+2. A link to a [fun website](windy.com)
+3. footnote^2^
+4. inspirational quote: 
+> *if opportunity doesn't knock, build a door* - **Milton Berle** 
+
+5. bibliographic citation to the best book [@JKRowling1997HarryPotterAndThePhilosophersStone]
+***
+6. finally, see below record of help sought this week. 
+Note - I only enrolled into the course on Thursday, so have been unable to offer help at this stage. 
+Help sought: 
+<br><br><br><br>
+I couldn't get Github and Rstudio to communicate, so asked Johannes and Torven in the Mind, Body and Cultural Evolution Lab for assistance. They helped me get GitKraken which allowed the two systems to communicate. Other than that issue, I have gone through all the course content to work out how to complete the above workbook. 
