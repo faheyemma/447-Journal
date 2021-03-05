@@ -1,0 +1,134 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={My Journal},
+  pdfauthor={Emma},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\usepackage[normalem]{ulem}
+% Avoid problems with \sout in headers with hyperref
+\pdfstringdefDisableCommands{\renewcommand{\sout}{}}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{My Journal}
+\author{Emma}
+\date{26/02/2021}
+
+\begin{document}
+\maketitle
+
+\hypertarget{workbook-details}{%
+\section{Workbook Details}\label{workbook-details}}
+
+This is my workbook.
+
+Week One tasks
+
+\hypertarget{small-heading}{%
+\subsubsection{Small Heading}\label{small-heading}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Text that is \sout{crossed out}\\
+\item
+  A link to a \href{windy.com}{fun website}\\
+\item
+  footnote\textsuperscript{7}\\
+\item
+  inspirational quote:\\
+\end{enumerate}
+
+\begin{quote}
+\emph{``If opportunity doesn't knock, build a door''} - \textbf{Milton
+Berle}~
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\item
+  Bibliographic citation to the start of the best book series
+  {[}JKRowling1997HarryPotterAndThePhilosophersStone{]}\\
+\item
+  Finally, see below record and reflections from week one:~
+\end{enumerate}
+
+\texttt{Note\ -\ I\ only\ became\ enrolled\ in\ this\ course\ on\ Thursday,\ so\ have\ been\ unable\ to\ offer\ help\ at\ this\ stage\ and\ did\ not\ attend\ the\ lab.}
+
+Help sought: I struggled to work out how to get Github and Rstudio to
+communicate with each other initially, so asked Johannes and Torven for
+assistance. They walked me through downloading GitKraken which created
+the connection. They also helped me to turn Rstudio into a darker mode,
+which looks WAY cooler! Other than that, I have dug through all the
+course content to work out how to complete the above exercise.\\
+
+Reflections: It took me a while to work out the terminology/jargon and
+correct coding to use, but once I worked out that Knit gave you an
+output that showed you where the code wasn't quite working as intended,
+it all became MUCH easier! Overall, I can see a lot of different uses
+for the programs. I like the idea of being able to see clear version
+control when collaborating, seems much clearer and less glitchy that a
+google doc!\\
+I really hope you're both able to see this once committed to Github, as
+I feel I missed a valuable intro in the lecture and workshop! :D
+
+\end{document}

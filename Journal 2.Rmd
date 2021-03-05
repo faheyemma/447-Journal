@@ -1,0 +1,30 @@
+---
+title: "Journal 2"
+author: "Emma"
+date: "05/03/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week Two 
+
+### Lessons learned 
+
+1. Chunks are a thing that exists in R
+2. Chunks are handy when wanting to run sections of code separately, but not great to free-text type in. 
+3. Name your chunks to avoid code errors 
+4. One really helpful piece of advice I received from someone in the lab was about how to run code. 
+I was using ctrl+enter to run code, which runs a single line, not an entire code chunk, need to use ctrl+shift+enter to run the entire chunk and avoid plotting errors. 
+5. Biggest help this week was Johannes explaining some of my error codes, helps to troubleshoot what is happening behind the scenes. This also allowed me to help others when they got errors for things not being installed. It would be cool if we could go through some more common error types and how to combat them in lecture 
+6. The other really helpful thing that was passed around was the ability to 'sweep' or clear datasets away from the environment pane once they'd been messed with. This helped A LOT as I messed up the women dataset way to many times before realising what was happening! 
+
+### Moving forward 
+
+I'm really looking forward to the FB group getting up and running, there were already a few questions and answers on there that helped me with this weeks workbook. 
+
+The only other thing is that it would be great if the workbooks could come out a little earlier so that time in seminar and labs can be spent troubleshooting questions that aren't going to be as easily solved solo.  
