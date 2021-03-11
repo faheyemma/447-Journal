@@ -1,0 +1,30 @@
+---
+title: "Journal Week 3"
+author: "Emma"
+date: "11/03/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Week 3
+
+### Lessons Learned
+
+	1. Had some really good discussions with the group in lab this week around tips and tricks for
+	making R graphs look a little nicer. For example,	made Q2. graph into a facet graph
+	to make it easier to interpret. 
+	2. Learnt how to get rid of warnings in text, making the chunk header say warning=false. Cool tip. 
+	3. General graphing mechanisms and how to add titles and facets. 
+
+### Help given
+
+After how difficult last week was, it was great to be able to help some people in lab this week. Particularly with coding errors I'd had last week, like making new variables when not intending to with x <- ... I was also able to pass on how to effectively run code (with ctrl+shift+enter, rather than ctrl+enter). It was awesome to leave the lab feeling like I'd had a bit of a breakthrough rather than feeling like I was about to have a meltdown :D 
+
+It was also a lot more collaborative in the lab this week as more people could understand what needed to happen with the questions in the workbook. I get that we all needed to have the 'it's impossible' week last week to learn, but I feel much better now things seem difficult but doable!  
+ 
+### Moving forward
+
+I tried to work out how to tidy up the graphs and make titles go over more than one line, but couldn't quite crack it. That's going to be something to work on next week, I'd love to know how to make everything fit the page once knitted. I tried to google the answer and go the code tidy=TRUE, but that didn't quite have the desired effect - there must be another way. 
